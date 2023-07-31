@@ -6,6 +6,7 @@ export DOTFILE_HOME=$(pwd)
 # install packages
 sudo apt install --no-install-recommends -y \
     curl \
+    xsel \
     git \
     vim \
 
