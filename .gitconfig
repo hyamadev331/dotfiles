@@ -1,3 +1,7 @@
 [user]
     name = hyamadev331
     email = hyamadev331@gmail.com
+[core]
+	editor = vim
+[commit]
+	template = ~/dotfiles/.commit_messages

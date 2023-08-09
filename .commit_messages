@@ -1,0 +1,11 @@
+# ==== Prefix ====
+# :fix: A bug fix
+# :feat: Add new feature
+# :docs: Documentation only changes
+# :remove(delete): remove file
+# :add: Add file
+# :rename: rename file
+# :style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+# :refactor(clean,improve): refactoring
+# :test: Adding missing or correcting existing tests
+# :chore: Changes to the build process or auxiliary tools and libraries such as documentation generation
