@@ -4,4 +4,4 @@
 [core]
 	editor = vim
 [commit]
-	template = ~/dotfiles/.commit_messages
+	template = ~/.commit_messages
