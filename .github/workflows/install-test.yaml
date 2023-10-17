@@ -1,9 +1,17 @@
 name: install-test
-run-name: test 
+run-name: install-test
 on: [push]
 jobs:
-  install:
+  ubuntu:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - run: ./setup.sh
+
+  archlinux:
+    runs-on: ubuntu-latest
+    container: 
+      image: archlinux:latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: ./setup_arch.sh
